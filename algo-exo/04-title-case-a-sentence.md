@@ -7,7 +7,7 @@ For the purpose of this exercise, you should also capitalize connecting words li
 function titleCase(str) {
 }
 
-titleCase("I'm a little tea pot");
-titleCase("sHoRt AnD sToUt");
-titleCase("HERE IS MY HANDLE HERE IS MY SPOUT");
+titleCase("I'm a little tea pot"); // -> should return I'm A Little Tea Po
+titleCase("sHoRt AnD sToUt"); // -> Short And Stout
+titleCase("HERE IS MY HANDLE HERE IS MY SPOUT"); // -> Here Is My Handle Here Is My Spout
 ```
