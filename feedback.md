@@ -51,4 +51,24 @@ Remarques :
 - Sep/sep-double = ?
 - De façon globale, ne jamais oublier l'alpha order.
 
+### 03-project-form
 
+Les plus :
+- Comme pour les autres projets, visuellement le résultat est là !
+- Bonne utilisation des balises h2.
+- Le reset CSS : excellente idée (mets le plutôt dans un fichier à part)
+- Très bien au niveau des selecteurs avancés (ligne 131 par exemple)
+
+
+Axes d'améliorations :
+- Attention à l'indentation : ton futur toi et tes futurs collègues te remercieront :).
+- Attention au mix anglais/français dans la création de tes classes.
+- Ligne 45 : tu peux utiliser une legend à la place :).
+- Ligne 53 : évite les width en pourcentage comme ça : 97.57, ça ne veut pas dire grand chose :). Fais plutôt 95% par exemple.
+- Les couleurs en mots (black, white) : essaye plutôt de les écrire en HEX
+- between min et max width : (ligne 199) : c'est bien, mais techniquement tu n'en as pas besoin, le min-width suffit.
+- Evite les ID :).
+- Pas totalement mobile-first (tu te compliques un peu la vie sur les media-querries)
+- N'hésite pas à mettre des commentaires sur ton code.
+
+Remarques :
