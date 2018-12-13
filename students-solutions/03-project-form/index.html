@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no"> </head>
+
+<body>
+    <div class="header">
+        <h1 class="title">THE CODE REVIEW
+   </h1> </div>
+    <div class="section">
+        <h2 class="titre">Signup for our newsletter</h2>
+        <p class="intro">Get the latest news on how your code is doing right in your inbox</p>
+        <div class="separateurmax"></div>
+        <div class="separateurmin"></div>
+        <h2 class="contact">Contact Information</h2>
+        <form>
+            <div class="left"> Full Name
+                <input type="text" id="fullname" name="FullName" placeholder="Required" required> </div>
+            <div class="left"> Email Address
+                <input type="text" name="EmailAddress" placeholder="Required" required> </div>
+            <div class="left"> Phone Number
+                <input type="tel" name="PhoneNumber" required> </div>
+            <div class="left"> Street Address
+                <input type="text" name="StreetAddress" required> </div>
+            <div class="left"> City
+                <input type="text" id="city" name="City" required> </div>
+            <div class="left"> State
+                <input list="browsers" name="browser" placeholder="Choose State">
+                <datalist id="browsers">
+                    <option value="chine">
+                        <option value="japon">
+                            <option value="corée">
+                                <option value="inde">
+                                    <option value="bangladesh">
+                </datalist>
+            </div>
+            <div class="left"> Zip Code
+                <input type="text" id="zipcode" name="ZipCode" required> </div>
+        </form>
+        <div class="separateurmicro"></div>
+        <h2 class="news">Newsletter</h2>
+        <p class="space">Select the newsletter you would like to recieve</p>
+        <div>
+            <input type="checkbox" name="htmlnews" checked>
+            <label for="htmlnews">HTML News</label>
+        </div>
+        <div>
+            <input type="checkbox" name="cssnews">
+            <label for="cssnews">CSS News</label>
+        </div>
+        <div>
+            <input type="checkbox" name="javascriptnews">
+            <label for="javascriptnews">Javascript News</label>
+        </div>
+        <p class="spaces">Newsletter format</p>
+        <div>
+            <input type="radio" class="html" name="drone" value="html" checked>
+            <label for="html">HTML</label>
+        </div>
+        <div>
+            <input type="radio" class="plaintext" name="drone" value="plaintext">
+            <label for="plaintext">Plain text</label>
+        </div>
+        <label for="story">Other topics you'd like to hear about </label>
+        <textarea class="story" name="story" rows="5" cols="33"> </textarea>
+        <button type="button">Sign up</button>
+        <p class="copyright">Copyright The Code Review</p>
+    </div>
+</body>
+
+</html>
